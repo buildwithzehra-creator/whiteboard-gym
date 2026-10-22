@@ -2825,11 +2825,11 @@
         $('tools').querySelectorAll('[data-tip]').forEach(b => b.dataset.name = b.dataset.tip.split(' · ')[0]);   // no keyboard on a phone, so just the names
         if (board?.cards.length && view.z < .6) { fit(board.cards, 40, 1); applyView(); } }   // start where the cards are, at a size you can read
       else { hide(); restoreAll(); hub.remove(); }
-      $('hubN').textContent = board?.tray?.length || '';
+      { const n = hub.querySelector('#hubN'); if (n) n.textContent = board?.tray?.length || ''; }
     }
     mq.addEventListener('change', e => set(e.matches));
     $('selbar').addEventListener('scroll', e => e.target.classList.toggle('end', e.target.scrollLeft + e.target.clientWidth >= e.target.scrollWidth - 4), { passive: true });
-    return { on: false, set, hide, count: () => { $('hubN').textContent = board?.tray?.length || ''; }, init: () => set(mq.matches) };
+    return { on: false, set, hide, count: () => { { const n = hub.querySelector('#hubN'); if (n) n.textContent = board?.tray?.length || ''; } }, init: () => set(mq.matches) };
   })();
   window.__phone = phone;
 

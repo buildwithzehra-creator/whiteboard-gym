@@ -1,0 +1,853 @@
+[
+ {
+  "slug": "self-organizing-bookshelf",
+  "title": "Design a self-organizing bookshelf",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "calendar-app",
+  "title": "Design a calendar app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "alarm-clock",
+  "title": "Design an alarm clock",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-chair",
+  "title": "Design a smart chair",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-fridge",
+  "title": "Design a smart fridge",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-microwave",
+  "title": "Design a smart microwave",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-shoes",
+  "title": "Design a smart shoes",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "laundry-machine",
+  "title": "Design a laundry machine",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "car-stereo-for-a-car-rental-company",
+  "title": "Design a car stereo for a car rental company",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "plant-care-app",
+  "title": "Design a plant care app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "futuristic-experience-for-booking-flights",
+  "title": "Design a futuristic experience for booking flights",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-mirror",
+  "title": "Design a smart mirror",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-bed",
+  "title": "Design a smart bed",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "feature-that-helps-remote-teams-collaborate-effectively",
+  "title": "Design a feature that helps remote teams collaborate effectively",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pet-adoption-app",
+  "title": "Design a pet adoption app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "personal-chef-app",
+  "title": "Design a personal chef app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "atm-for-visually-impaired-users",
+  "title": "Design an ATM for visually impaired users",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "redesign-the-grocery-checkout-experience",
+  "title": "Redesign the grocery checkout experience",
+  "category": "redesign-critique",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-toothbrush",
+  "title": "Design a smart toothbrush",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "bed-for-recovering-patients",
+  "title": "Design a bed for recovering patients",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-cage",
+  "title": "Design a smart cage",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "portable-solar-powered-battery",
+  "title": "Design a portable solar-powered battery",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pet-locator",
+  "title": "Design a pet locator",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "broom",
+  "title": "Design a broom",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "rideshare-app-for-the-elderly",
+  "title": "Design a rideshare app for the elderly",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "rideshare-app-for-children",
+  "title": "Design a rideshare app for children",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "ridesharing-app-for-autonomous-vehicles",
+  "title": "Design a ridesharing app for autonomous vehicles",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "refilling-toiletry-station",
+  "title": "Design a refilling toiletry station",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "nanny-app",
+  "title": "Design a nanny app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-pet-robot",
+  "title": "Design a smart pet robot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "robotic-horse",
+  "title": "Design a robotic horse",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "harmless-animal-trap",
+  "title": "Design a harmless animal trap",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "mobile-app-for-booking-coworking-spaces",
+  "title": "Design a mobile app for booking coworking spaces",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "solar-lamp",
+  "title": "Design a solar lamp",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "couch",
+  "title": "Design a couch",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "time-machine",
+  "title": "Design a time machine",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "mobile-app-for-planning-social-activities",
+  "title": "Design a mobile app for planning social activities",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "child-locator",
+  "title": "Design a child locator",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "giving-app-for-those-in-need",
+  "title": "Design a giving app for those in need",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "app-to-manage-elevators-in-a-lobby",
+  "title": "Design an app to manage elevators in a lobby",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "car-locator",
+  "title": "Design a car locator",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "grocery-store-checkout-app",
+  "title": "Design a grocery store checkout app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "personal-stylist-device",
+  "title": "Design a personal stylist device",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "chatbot-for-banks",
+  "title": "Design a chatbot for banks",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "chatbot-app-for-customers-waiting-in-a-salon",
+  "title": "Design a chatbot app for customers waiting in a salon",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-pillow",
+  "title": "Design a smart pillow",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "recovery-app-for-athletes",
+  "title": "Design a recovery app for athletes",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "commitment-app-for-new-year-s-resolutions",
+  "title": "Design a commitment app for new year's resolutions",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "recreational-sports-app",
+  "title": "Design a recreational sports app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "halloween-app",
+  "title": "Design a Halloween app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "thanksgiving-app",
+  "title": "Design a Thanksgiving app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "christmas-app",
+  "title": "Design a Christmas app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "college-party-app",
+  "title": "Design a college party app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "picnic-app",
+  "title": "Design a picnic app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "minimalist-app-for-backpack-travelers",
+  "title": "Design a minimalist app for backpack travelers",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "personal-assistant-for-those-on-the-road",
+  "title": "Design a personal assistant for those on the road",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "personal-assistant-robot",
+  "title": "Design a personal assistant robot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "accountability-app",
+  "title": "Design an accountability app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "app-to-stop-procrastination",
+  "title": "Design an app to stop procrastination",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "survival-app-for-those-lost-in-nature",
+  "title": "Design a survival app for those lost in nature",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-pen",
+  "title": "Design a smart pen",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-book-with-adaptable-storylines",
+  "title": "Design a smart book with adaptable storylines",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pet-cam",
+  "title": "Design a pet cam",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-flowerpot",
+  "title": "Design a smart flowerpot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-playpen",
+  "title": "Design a smart playpen",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "flight-experience-app",
+  "title": "Design a flight experience app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-home-dashboard-for-elderly-users",
+  "title": "Design a smart home dashboard for elderly users",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "remote-controlled-windows",
+  "title": "Design a remote-controlled windows",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-curtain-for-all-seasons",
+  "title": "Design a smart curtain for all seasons",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pencil-for-those-with-poor-hand-mobility",
+  "title": "Design a pencil for those with poor hand mobility",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-journal",
+  "title": "Design a smart journal",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "redesign-an-airline-seat-selection-experience",
+  "title": "Redesign an airline seat selection experience",
+  "category": "redesign-critique",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "commercial-bidet",
+  "title": "Design a commercial bidet",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "calculator-app-for-kids",
+  "title": "Design a calculator app for kids",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "commercial-kettle",
+  "title": "Design a commercial kettle",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-hat",
+  "title": "Design a smart hat",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-coat",
+  "title": "Design a smart coat",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "physical-frame-displaying-crypto-art",
+  "title": "Design a physical frame displaying crypto art",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "animal-communicator-device",
+  "title": "Design an animal communicator device",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "teleportation-device",
+  "title": "Design a teleportation device",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "rideshare-experience-for-rural-users",
+  "title": "Design a rideshare experience for rural users",
+  "category": "constraint",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "underwater-photography-app",
+  "title": "Design an underwater photography app",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "digital-trophy",
+  "title": "Design a digital trophy",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-socks",
+  "title": "Design a smart socks",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-medical-kit",
+  "title": "Design a smart medical kit",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "portable-shower",
+  "title": "Design a portable shower",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "grocery-assistant-robot",
+  "title": "Design a grocery assistant robot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pizza-delivery-robot",
+  "title": "Design a pizza delivery robot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "closet",
+  "title": "Design a closet",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "management-system-for-a-floor-cleaning-robot",
+  "title": "Design a management system for a floor cleaning robot",
+  "category": "design-product",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "fitness-machine",
+  "title": "Design a fitness machine",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "cooking-assistant-robot",
+  "title": "Design a cooking assistant robot",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "siri-for-a-smart-house",
+  "title": "Design a Siri for a smart house",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-yoga-mat",
+  "title": "Design a smart yoga mat",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "self-loading-dishwasher",
+  "title": "Design a self-loading dishwasher",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "camera-for-influencers",
+  "title": "Design a camera for influencers",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "self-cleaning-driveway",
+  "title": "Design a self-cleaning driveway",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "smart-lawn",
+  "title": "Design a smart lawn",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "pool-that-can-detect-drowning",
+  "title": "Design a pool that can detect drowning",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "futuristic-meal-generator",
+  "title": "Design a futuristic meal generator",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "whiteboard",
+  "title": "Design a whiteboard",
+  "category": "physical-iot",
+  "source": "Blue Sky Whiteboard Challenges (Zehra's list)",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "self-checkout-that-never-needs-rescuing",
+  "title": "Self-checkout that never needs rescuing",
+  "category": "redesign-critique",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "ride-booking-for-parents-with-small-kids",
+  "title": "Ride booking for parents with small kids",
+  "category": "constraint",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "an-atm-everyone-can-use",
+  "title": "An ATM everyone can use",
+  "category": "constraint",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "painless-e-commerce-returns",
+  "title": "Painless e-commerce returns",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "one-dashboard-for-a-freelancer-s-work-life",
+  "title": "One dashboard for a freelancer's work life",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "calm-clinic-check-in",
+  "title": "Calm clinic check-in",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "donations-that-feel-worth-repeating",
+  "title": "Donations that feel worth repeating",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "a-family-calendar-everyone-actually-uses",
+  "title": "A family calendar everyone actually uses",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "from-saved-recipe-to-cooked-dinner",
+  "title": "From saved recipe to cooked dinner",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "library-returns-without-the-guilt",
+  "title": "Library returns without the guilt",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "all-your-subscriptions-in-one-place",
+  "title": "All your subscriptions in one place",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "group-trip-planning-without-one-organizer",
+  "title": "Group trip planning without one organizer",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "internship-application-tracker-for-students",
+  "title": "Internship application tracker for students",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "farmers-market-product-page-that-builds-trust",
+  "title": "Farmers' market product page that builds trust",
+  "category": "redesign-critique",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "first-steps-into-campus-mental-health-support",
+  "title": "First steps into campus mental health support",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "networking-at-virtual-events-that-isn-t-a-phone-book",
+  "title": "Networking at virtual events that isn't a phone book",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "a-carbon-tracker-that-encourages-instead-of-shames",
+  "title": "A carbon tracker that encourages instead of shames",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ },
+ {
+  "slug": "your-walks-for-a-city-dog-walking-app",
+  "title": "'Your Walks' for a city dog-walking app",
+  "category": "design-product",
+  "source": "Nulab, 18 UX whiteboard challenge examples",
+  "source_url": "https://nulab.com/learn/design-and-ux/ux-whiteboard-challenge-examples/",
+  "needs_rewrite": true
+ }
+]

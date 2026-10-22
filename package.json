@@ -1,0 +1,15 @@
+{
+  "name": "whiteboard-gym",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Practice design whiteboard interviews with an AI panel. Built on Mochiboard.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.local scripts/dev.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.1.0"
+  }
+}

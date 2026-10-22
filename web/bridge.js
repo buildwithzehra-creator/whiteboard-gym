@@ -1,6 +1,11 @@
 // The bridge between the canvas and wherever it's running.
 // Inside the Mac app, calls go to Swift (saving board files, link previews, asking Mochi through Claude Code).
 // In a plain browser (for building and demos) it falls back to localStorage and a pretend Mochi.
+//
+// Whiteboard Gym adds a third mode, "cloud": the website at whiteboardgym.com (or `npm run dev`).
+// Boards still live in localStorage for now (Supabase comes on Day 4); thinking goes to our own
+// serverless API (/api/ask), which calls Claude with the server's key. Add ?demo to any URL for the
+// original offline pretend-Mochi mode.
 (() => {
   const native = !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.mb);
   const waiting = new Map(); let seq = 0;
@@ -9,8 +14,11 @@
   const call = (op, args = {}) => new Promise((res, rej) => { const id = ++seq; waiting.set(id, { res, rej }); window.webkit.messageHandlers.mb.postMessage({ id, op, args }); });
 
   const LS = 'mochiboard:';
+  // Whiteboard Gym: the website thinks through /api unless ?demo is in the address
+  const cloud = !native && !/[?&]demo\b/.test(location.search);
   // the web demo: a real website (or ?web) can't reach Claude Code, Mobbin or Higgsfield on the visitor's computer
-  const web = !native && (!/^(localhost|127\.0\.0\.1|\[::1\]|)$/.test(location.hostname) || /[?&]web\b/.test(location.search));
+  const web = !native && !cloud && (!/^(localhost|127\.0\.0\.1|\[::1\]|)$/.test(location.hostname) || /[?&]web\b/.test(location.search));
+  if (cloud) document.documentElement.classList.add('cloud');
   const browser = {
     async list() { return JSON.parse(localStorage.getItem(LS + 'index') || '[]'); },
     async load(id) { const s = localStorage.getItem(LS + 'board:' + id); return s ? JSON.parse(s) : null; },
@@ -50,6 +58,22 @@
         add: [{ type: 'note', text: 'What is this for?', color: 'butter' }, { type: 'note', text: 'Who will see it?', color: 'mint' }, { type: 'note', text: 'What does done look like?', color: 'lilac' }] });
     },
   };
+
+  // Whiteboard Gym: the cloud version. Same canvas, thinking goes to our serverless API.
+  const api = async (path, body) => {
+    const r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+    const t = await r.text();
+    if (!r.ok) { let msg = t; try { msg = JSON.parse(t).error || t; } catch (e) {} throw new Error(msg || ('HTTP ' + r.status)); }
+    return t;
+  };
+  const cloudMB = Object.assign({}, browser, {
+    web: false, cloud: true,
+    async connections() { return { claude: true, mobbin: false, higgsfield: false, browser: false, web: false, cloud: true }; },
+    async reveal() { alert('Your boards live in this browser for now. Signing in to keep them in the cloud is coming soon.'); },
+    // the board goes up as JSON (no screenshots): Claude reads exactly what's on it
+    ask: (prompt, board) => api('/api/ask', { prompt, board }),
+  });
+
   window.MB = native ? {
     native: true,
     list: () => call('list'), load: id => call('load', { id }), save: board => call('save', { board }), remove: id => call('remove', { id }),
@@ -57,5 +81,5 @@
     usage: () => call('usage'), resetUsage: () => call('resetUsage'), version: () => call('version'),
     linkPreview: url => call('linkPreview', { url }), ask: (prompt, board, confirmed = false, opts = {}) => call('ask', { prompt, board, confirmed, ...opts }),
     connections: () => call('connections'), fetchImage: url => call('fetchImage', { url }), openURL: url => call('openURL', { url }), reveal: () => call('reveal'), transcribe: audio => call('transcribe', { audio }), speechAuth: () => call('speechAuth'), exportRect: o => call('export', o), fonts: () => call('fonts'), higgsQuote: o => call('higgsQuote', o || {}), updateCheck: () => call('updateCheck'), updateNow: () => call('updateNow'), higgsMake: o => call('higgsMake', o), drawFill: o => call('drawFill', o),
-  } : Object.assign({ native: false }, browser);
+  } : cloud ? Object.assign({ native: false }, cloudMB) : Object.assign({ native: false }, browser);
 })();

@@ -1,0 +1,3 @@
+/* Whiteboard Gym layer on top of Mochiboard's style.css.
+   Day 1: hide the Mac-only bits in the cloud version. Day 4: your "portfolio properties" tokens go here. */
+.cloud .conns, .cloud .native-only, .cloud .web-only, .cloud .get-app { display: none !important; }
