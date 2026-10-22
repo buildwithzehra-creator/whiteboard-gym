@@ -1,3 +1,78 @@
 /* Whiteboard Gym layer on top of Mochiboard's style.css.
-   Day 1: hide the Mac-only bits in the cloud version. Day 4: your "portfolio properties" tokens go here. */
+   Everything here applies only to the website ("cloud" mode), so the original Mochiboard look still works with ?demo.
+   Tokens come from Zehra's portfolio design system (zehranurakcali.com · Paper "Portfolio - Properties"):
+   warm-gray canvas, dot grid, rulers, crisp sticker cards, Inter / Caveat / DM Mono, blue accent. Light theme only. */
+
 .cloud .conns, .cloud .native-only, .cloud .web-only, .cloud .get-app { display: none !important; }
+
+/* ---------- tokens ---------- */
+.cloud {
+  /* folio core */
+  --bg: #F4F4F2; --wg-ink: #111111; --gray: #6B6B6B; --muted: #6B6B67; --line: #E2E2DE; --line-2: #ECECE8;
+  --blue: #2F7CF6; --blue-ink: #1A63D8; --orange: #FF5A1F; --peach-f: #F79A4A; --pink-f: #E8508A;
+  --sticker-shadow: 0 1px 2px #00000014, 0 8px 20px #281E141F;
+  --panel-shadow: 0 14px 34px rgba(40, 30, 20, .10), 0 0 0 1px var(--line-2);
+  --mono: "DM Mono", ui-monospace, Menlo, monospace;
+
+  /* Mochiboard variables, re-pointed at the folio tokens */
+  --ink: #111111; --ink-soft: #6B6B6B; --ink-faint: #B5B5B0; --paper: #ffffff; --dot: #C9C9C4;
+  --blush: #E9E9E5;                                 /* hover / selected rows: folio's soft gray */
+  --pink: #9EC0FA; --pink-deep: #2F7CF6;            /* Mochiboard's accent becomes folio blue */
+  --select: #2F7CF6; --coral: #FF5A1F;
+  --font: "Inter", system-ui, -apple-system, sans-serif; --hand: "Caveat", cursive;
+  /* sticky colors, kept soft so they read as paper on a warm-gray board */
+  --butter: #FFF8D9; --butter-deep: #F2D873;
+  --mint: #E9F6EC; --mint-deep: #8FD0A2;
+  --sky: #E3EEFE; --sky-deep: #9EC0FA;
+  --lilac: #EEEAFB; --lilac-deep: #B7A8F0;
+  --peach: #FFEEDF; --peach-f2: #F79A4A; --peach-deep: #F7B27A;
+}
+.cloud body, .cloud .stage { background: var(--bg); color: var(--ink); }
+
+/* ---------- canvas: folio dot grid ---------- */
+.cloud .grid { background-image: radial-gradient(var(--dot) 1.1px, transparent 1.2px); background-size: 24px 24px; }
+.cloud .home { background-color: var(--bg); background-image: radial-gradient(#C9C9C4 1.1px, transparent 1.2px); background-size: 24px 24px; }
+
+/* ---------- panels: white, hairline border, warm soft shadow, 12px radius ---------- */
+.cloud .box, .cloud .tray { background: rgba(255, 255, 255, .94); border-radius: 12px; box-shadow: var(--panel-shadow); }
+.cloud .tools, .cloud .selbar { background: #fff; box-shadow: var(--panel-shadow); }
+.cloud .set-panel, .cloud .ob-panel { border-radius: 14px; box-shadow: 0 24px 60px rgba(17, 17, 17, .18), 0 0 0 1px #0000001A; }
+.cloud .settings { background: rgba(30, 26, 20, .18); }
+.cloud .onboard { background: rgba(244, 244, 242, .72); }
+.cloud .tile { border-radius: 12px; box-shadow: var(--sticker-shadow); }
+.cloud kbd { font: 500 11px/1 var(--mono); border-color: var(--line-2); }
+
+/* ---------- type: Inter body, tracked-caps eyebrows, DM Mono for system labels ---------- */
+.cloud .brand { font: 700 17px/1 var(--font); letter-spacing: -.02em; }
+.cloud .label { font: 600 10.5px/1 var(--font); letter-spacing: .12em; color: var(--muted); }
+.cloud .board-row { font-size: 13.5px; border-radius: 8px; }
+.cloud .board-row.on { font-weight: 600; }
+.cloud .pill-btn { border-radius: 8px; border-color: #D3D3CE; }
+.cloud .pill-btn:hover { border-color: var(--blue); color: var(--blue-ink); }
+.cloud .keys, .cloud .ly-count, .cloud .tools .zoom { font-family: var(--mono); }
+
+/* ---------- cards: crisp stickers instead of wobbly cut paper ---------- */
+.cloud .card, .cloud .card .frame { border-radius: 10px; }
+.cloud .card .frame { filter: none; box-shadow: var(--sticker-shadow); }
+.cloud .coll-frame::before { filter: none; }
+.cloud .card.selected .frame, .cloud .card.sel .frame { box-shadow: 0 0 0 2px var(--blue), var(--sticker-shadow); }
+
+/* ---------- buttons: folio black pill for primary actions ---------- */
+.cloud .tools button:hover, .cloud .selbar .sb-txt:hover { background: var(--blush); }
+.cloud .selbar .sb-txt.on, .cloud .db-done, .cloud .dv-back { background: var(--ink); color: #fff; }
+
+/* Mochiboard's Mac release notes do not apply to the website */
+.cloud #news { display: none !important; }
+
+/* ---------- chat: folio bubbles instead of Mochiboard pink ---------- */
+.cloud .m-chat { border-radius: 14px; box-shadow: 0 24px 60px rgba(17, 17, 17, .16), 0 0 0 1px #0000001A; }
+.cloud .mc-head { border-color: var(--line-2); }
+.cloud .mc-status { color: var(--blue-ink); }
+.cloud .mc-msg { border-radius: 12px; }
+.cloud .mc-msg.mochi { background: var(--bg); border-bottom-left-radius: 4px; }
+.cloud .mc-msg.me { background: var(--blue); color: #fff; border-bottom-right-radius: 4px; }
+.cloud .mc-form { background: var(--bg); border-radius: 12px; box-shadow: inset 0 0 0 1px var(--line-2); }
+.cloud .mc-ideas button, .cloud .mc-msg .m-acts button.next { border: 1px solid #D6D6D6; background: #fff; color: var(--gray); }
+.cloud .mc-ideas button:hover, .cloud .mc-msg .m-acts button.next:hover { border-color: var(--blue); color: var(--blue-ink); background: #fff; }
+.cloud .home-row { background: var(--bg); border-radius: 8px; }
+.cloud .brand span { white-space: nowrap; font-size: 15.5px; }

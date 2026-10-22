@@ -1220,7 +1220,7 @@
   function applySettings() {
     queueMicrotask(() => applyColors());
     goos.forEach(g => g.setColors(MOCHI_COLORS[settings.mochi] || MOCHI_COLORS.blue));
-    const dark = settings.theme === 'dark' || (settings.theme === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+    const dark = !MB.cloud && (settings.theme === 'dark' || (settings.theme === 'system' && matchMedia('(prefers-color-scheme: dark)').matches));   // Whiteboard Gym: light only
     document.body.classList.toggle('dark', dark); document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
     document.querySelectorAll('[data-seg]').forEach(g => g.querySelectorAll('[data-v]').forEach(b => b.classList.toggle('on', settings[g.dataset.seg] === b.dataset.v)));
     $('obNotes').innerHTML = $('noteColors').innerHTML = `<button data-nc="random" class="rand ${settings.noteColor === 'random' ? 'on' : ''}" title="A random pastel"></button>` + COLOR_NAMES.map(n => `<button data-nc="${n}" title="${n}" style="background:${COLORS[n]}" class="${settings.noteColor === n ? 'on' : ''}"></button>`).join('');
