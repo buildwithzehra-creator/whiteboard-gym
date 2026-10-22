@@ -76,3 +76,24 @@
 .cloud .mc-ideas button:hover, .cloud .mc-msg .m-acts button.next:hover { border-color: var(--blue); color: var(--blue-ink); background: #fff; }
 .cloud .home-row { background: var(--bg); border-radius: 8px; }
 .cloud .brand span { white-space: nowrap; font-size: 15.5px; }
+
+/* ---------- the interview panel replaces Mochi ---------- */
+.cloud #goo, .cloud #chatGoo, .cloud #brandGoo, .cloud #coachGoo, .cloud #setGoo, .cloud .brand canvas { display: none !important; }
+.wg-faces { display: inline-flex; align-items: center; flex: none; }
+.wg-av { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font: 600 12px/1 var(--font); font-style: normal; color: #fff; box-shadow: 0 0 0 2px #fff; }
+.wg-av + .wg-av { margin-left: -8px; }
+.wg-maya { background: var(--pink-f); }
+.wg-leo { background: var(--blue); }
+.cloud .m-pill .wg-faces { margin: 0 2px 0 4px; }
+.cloud .mc-head .wg-av { width: 26px; height: 26px; font-size: 11px; }
+.wg-title { display: flex; flex-direction: column; gap: 2px; font: 600 14px/1.1 var(--font); }
+.wg-title small { font: 400 10.5px/1 var(--mono); color: var(--muted); }
+
+/* ---------- folio rulers ---------- */
+.wg-ruler { position: absolute; z-index: 5; background: #FAFAF8; pointer-events: none; }
+.wg-ruler-top { left: 0; top: 0; border-bottom: 1px solid var(--line); }
+.wg-ruler-left { left: 0; top: 0; border-right: 1px solid var(--line); }
+.wg-ruler-corner { position: absolute; left: 0; top: 0; width: 22px; height: 22px; z-index: 6; background: #FAFAF8; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); pointer-events: none; }
+/* the floating panels sit just inside the rulers */
+.cloud .side { left: 36px; top: 36px; }
+.cloud .tray { top: 36px; }

@@ -1411,7 +1411,7 @@
       say("Hmm, I couldn't reach Claude: " + err.message); }
     finally { $('mochi').classList.remove('thinking'); goo.think(false); favGoo?.think(false); typing(false); }
   }
-  $('mForm').onsubmit = e => { e.preventDefault(); const q = $('mInput').value.trim(); if (!q) return; $('mInput').value = ''; mochiOpen(false); $('mInput').placeholder = 'Ask Mochi… “group these by theme”'; ask(q); };
+  $('mForm').onsubmit = e => { e.preventDefault(); const q = $('mInput').value.trim(); if (!q) return; $('mInput').value = ''; mochiOpen(false); $('mInput').placeholder = MB.cloud ? 'Ask the panel… “who is the primary user?”' : 'Ask Mochi… “group these by theme”'; ask(q); };
   const parse = raw => { const s = String(raw), a = s.indexOf('{'), b = s.lastIndexOf('}'); if (a < 0) return { say: s.trim() }; try { return JSON.parse(s.slice(a, b + 1)); } catch (e) { return { say: s.trim() }; } };
   // her actions: say, add cards, move cards, place unsorted ideas, add titles, connect cards
   async function applyMochi(r, q) {
