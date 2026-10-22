@@ -20,7 +20,7 @@
   const web = !native && !cloud && (!/^(localhost|127\.0\.0\.1|\[::1\]|)$/.test(location.hostname) || /[?&]web\b/.test(location.search));
   if (cloud) document.documentElement.classList.add('cloud');
   // Whiteboard Gym: skip Mochiboard's Mochi tour and greeting (our own onboarding is the spin wheel)
-  if (cloud) try { if (!localStorage.getItem(LS + 'onboarded')) localStorage.setItem(LS + 'onboarded', '1'); const st = JSON.parse(localStorage.getItem(LS + 'settings') || '{}'); if (!('greet' in st)) { st.greet = false; localStorage.setItem(LS + 'settings', JSON.stringify(st)); } } catch (e) {}
+  if (cloud) try { if (!localStorage.getItem(LS + 'onboarded')) localStorage.setItem(LS + 'onboarded', '1'); const st = JSON.parse(localStorage.getItem(LS + 'settings') || '{}'); let ch = false; if (!('greet' in st)) { st.greet = false; ch = true; } if (!('cursor' in st)) { st.cursor = '#2F7CF6'; ch = true; } if (ch) localStorage.setItem(LS + 'settings', JSON.stringify(st)); } catch (e) {}
   const browser = {
     async list() { return JSON.parse(localStorage.getItem(LS + 'index') || '[]'); },
     async load(id) { const s = localStorage.getItem(LS + 'board:' + id); return s ? JSON.parse(s) : null; },

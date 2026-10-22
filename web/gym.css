@@ -97,3 +97,4 @@
 /* the floating panels sit just inside the rulers */
 .cloud .side { left: 36px; top: 36px; }
 .cloud .tray { top: 36px; }
+.cloud .tile.add { border-color: #D3D3CE; }
